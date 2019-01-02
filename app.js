@@ -1,17 +1,36 @@
-var counter = function(arr){
+var stuff = require("./stuff");
+
+console.log(stuff.counter(['Shaun', 'Crystal', 'Ryu']));
+console.log(stuff.adder(5,6));
+console.log(stuff.adder(stuff.pi,5));
+
+
+
+//var counter = function(arr){
+//    return 'there are ' + arr.length + ' elements in this array';
+//}
+//console.log(counter(['Shaun', 'Crystal', 'Ryu']));
+//
+//module.exports = counter;
+
+
+
+
+
+//var counter = function(arr){
     return 'there are ' + arr.length + ' elements in this array';
 }
-console.log(counter(['Shaun', 'Crystal', 'Ryu']));
-
-module.exports = counter;
+//console.log(counter(['Shaun', 'Crystal', 'Ryu']));
+//
+//module.exports = counter;
 
 
 
 
 
 //function callFunction(fun){
-//    fun();
-//}
+////    fun();
+////}
 
 
 // normal function statement
@@ -23,11 +42,11 @@ module.exports = counter;
 //sayHi();
 
 //function expression
-//var sayBye = function(){
-//    console.log('Bye');
-//};
+////var sayBye = function(){
+////    console.log('Bye');
+////};
 
-//callFunction(sayBye);
+////callFunction(sayBye);
 
 
 //console.log(__dirname);
