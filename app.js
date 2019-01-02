@@ -1,6 +1,17 @@
-function callFunction(fun){
-    fun();
+var counter = function(arr){
+    return 'there are ' + arr.length + ' elements in this array';
 }
+console.log(counter(['Shaun', 'Crystal', 'Ryu']));
+
+module.exports = counter;
+
+
+
+
+
+//function callFunction(fun){
+//    fun();
+//}
 
 
 // normal function statement
@@ -12,11 +23,11 @@ function callFunction(fun){
 //sayHi();
 
 //function expression
-var sayBye = function(){
-    console.log('Bye');
-};
+//var sayBye = function(){
+//    console.log('Bye');
+//};
 
-callFunction(sayBye);
+//callFunction(sayBye);
 
 
 //console.log(__dirname);
